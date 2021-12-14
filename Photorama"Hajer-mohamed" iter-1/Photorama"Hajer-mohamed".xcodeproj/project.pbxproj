@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0797699B2765CC9200D440A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797699A2765CC9200D440A6 /* AppDelegate.swift */; };
+		0797699D2765CC9200D440A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797699C2765CC9200D440A6 /* SceneDelegate.swift */; };
+		0797699F2765CC9200D440A6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797699E2765CC9200D440A6 /* PhotosViewController.swift */; };
+		079769A22765CC9200D440A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079769A02765CC9200D440A6 /* Main.storyboard */; };
+		079769A42765CC9400D440A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079769A32765CC9400D440A6 /* Assets.xcassets */; };
+		079769A72765CC9400D440A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079769A52765CC9400D440A6 /* LaunchScreen.storyboard */; };
+		079769B22765CC9400D440A6 /* Photorama_Hajer_mohamed_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079769B12765CC9400D440A6 /* Photorama_Hajer_mohamed_Tests.swift */; };
+		079769BC2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079769BB2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITests.swift */; };
+		079769BE2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079769BD2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITestsLaunchTests.swift */; };
+		079769CB2765D68900D440A6 /*  FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079769CA2765D68900D440A6 /*  FlickrAPI.swift */; };
+		079769CD2765DD1800D440A6 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079769CC2765DD1800D440A6 /* PhotoStore.swift */; };
+		079769CF2765E15800D440A6 /*  Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079769CE2765E15800D440A6 /*  Photo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079769AE2765CC9400D440A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0797698F2765CC9100D440A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079769962765CC9200D440A6;
+			remoteInfo = "Photorama\"Hajer-mohamed\"";
+		};
+		079769B82765CC9400D440A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0797698F2765CC9100D440A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079769962765CC9200D440A6;
+			remoteInfo = "Photorama\"Hajer-mohamed\"";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079769972765CC9200D440A6 /* Photorama"Hajer-mohamed".app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photorama\"Hajer-mohamed\".app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0797699A2765CC9200D440A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0797699C2765CC9200D440A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0797699E2765CC9200D440A6 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		079769A12765CC9200D440A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		079769A32765CC9400D440A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079769A62765CC9400D440A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		079769A82765CC9400D440A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079769AD2765CC9400D440A6 /* Photorama"Hajer-mohamed"Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photorama\"Hajer-mohamed\"Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079769B12765CC9400D440A6 /* Photorama_Hajer_mohamed_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_Hajer_mohamed_Tests.swift; sourceTree = "<group>"; };
+		079769B72765CC9400D440A6 /* Photorama"Hajer-mohamed"UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photorama\"Hajer-mohamed\"UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079769BB2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_Hajer_mohamed_UITests.swift; sourceTree = "<group>"; };
+		079769BD2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_Hajer_mohamed_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		079769CA2765D68900D440A6 /*  FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " FlickrAPI.swift"; sourceTree = "<group>"; };
+		079769CC2765DD1800D440A6 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		079769CE2765E15800D440A6 /*  Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Photo.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079769942765CC9200D440A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079769AA2765CC9400D440A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079769B42765CC9400D440A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0797698E2765CC9100D440A6 = {
+			isa = PBXGroup;
+			children = (
+				079769992765CC9200D440A6 /* Photorama"Hajer-mohamed" */,
+				079769B02765CC9400D440A6 /* Photorama"Hajer-mohamed"Tests */,
+				079769BA2765CC9400D440A6 /* Photorama"Hajer-mohamed"UITests */,
+				079769982765CC9200D440A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		079769982765CC9200D440A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079769972765CC9200D440A6 /* Photorama"Hajer-mohamed".app */,
+				079769AD2765CC9400D440A6 /* Photorama"Hajer-mohamed"Tests.xctest */,
+				079769B72765CC9400D440A6 /* Photorama"Hajer-mohamed"UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079769992765CC9200D440A6 /* Photorama"Hajer-mohamed" */ = {
+			isa = PBXGroup;
+			children = (
+				079769D3276618B200D440A6 /* Support */,
+				079769D22766188800D440A6 /* Model */,
+				079769D12766186400D440A6 /* View */,
+				079769D02766184500D440A6 /* Controller */,
+				079769A82765CC9400D440A6 /* Info.plist */,
+			);
+			path = "Photorama\"Hajer-mohamed\"";
+			sourceTree = "<group>";
+		};
+		079769B02765CC9400D440A6 /* Photorama"Hajer-mohamed"Tests */ = {
+			isa = PBXGroup;
+			children = (
+				079769B12765CC9400D440A6 /* Photorama_Hajer_mohamed_Tests.swift */,
+			);
+			path = "Photorama\"Hajer-mohamed\"Tests";
+			sourceTree = "<group>";
+		};
+		079769BA2765CC9400D440A6 /* Photorama"Hajer-mohamed"UITests */ = {
+			isa = PBXGroup;
+			children = (
+				079769BB2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITests.swift */,
+				079769BD2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITestsLaunchTests.swift */,
+			);
+			path = "Photorama\"Hajer-mohamed\"UITests";
+			sourceTree = "<group>";
+		};
+		079769D02766184500D440A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0797699E2765CC9200D440A6 /* PhotosViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		079769D12766186400D440A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				079769A02765CC9200D440A6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		079769D22766188800D440A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				079769CA2765D68900D440A6 /*  FlickrAPI.swift */,
+				079769CC2765DD1800D440A6 /* PhotoStore.swift */,
+				079769CE2765E15800D440A6 /*  Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		079769D3276618B200D440A6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0797699A2765CC9200D440A6 /* AppDelegate.swift */,
+				0797699C2765CC9200D440A6 /* SceneDelegate.swift */,
+				079769A32765CC9400D440A6 /* Assets.xcassets */,
+				079769A52765CC9400D440A6 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079769962765CC9200D440A6 /* Photorama"Hajer-mohamed" */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079769C12765CC9400D440A6 /* Build configuration list for PBXNativeTarget "Photorama"Hajer-mohamed"" */;
+			buildPhases = (
+				079769932765CC9200D440A6 /* Sources */,
+				079769942765CC9200D440A6 /* Frameworks */,
+				079769952765CC9200D440A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photorama\"Hajer-mohamed\"";
+			productName = "Photorama\"Hajer-mohamed\"";
+			productReference = 079769972765CC9200D440A6 /* Photorama"Hajer-mohamed".app */;
+			productType = "com.apple.product-type.application";
+		};
+		079769AC2765CC9400D440A6 /* Photorama"Hajer-mohamed"Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079769C42765CC9400D440A6 /* Build configuration list for PBXNativeTarget "Photorama"Hajer-mohamed"Tests" */;
+			buildPhases = (
+				079769A92765CC9400D440A6 /* Sources */,
+				079769AA2765CC9400D440A6 /* Frameworks */,
+				079769AB2765CC9400D440A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079769AF2765CC9400D440A6 /* PBXTargetDependency */,
+			);
+			name = "Photorama\"Hajer-mohamed\"Tests";
+			productName = "Photorama\"Hajer-mohamed\"Tests";
+			productReference = 079769AD2765CC9400D440A6 /* Photorama"Hajer-mohamed"Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		079769B62765CC9400D440A6 /* Photorama"Hajer-mohamed"UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079769C72765CC9400D440A6 /* Build configuration list for PBXNativeTarget "Photorama"Hajer-mohamed"UITests" */;
+			buildPhases = (
+				079769B32765CC9400D440A6 /* Sources */,
+				079769B42765CC9400D440A6 /* Frameworks */,
+				079769B52765CC9400D440A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079769B92765CC9400D440A6 /* PBXTargetDependency */,
+			);
+			name = "Photorama\"Hajer-mohamed\"UITests";
+			productName = "Photorama\"Hajer-mohamed\"UITests";
+			productReference = 079769B72765CC9400D440A6 /* Photorama"Hajer-mohamed"UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0797698F2765CC9100D440A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					079769962765CC9200D440A6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					079769AC2765CC9400D440A6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 079769962765CC9200D440A6;
+					};
+					079769B62765CC9400D440A6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 079769962765CC9200D440A6;
+					};
+				};
+			};
+			buildConfigurationList = 079769922765CC9100D440A6 /* Build configuration list for PBXProject "Photorama"Hajer-mohamed"" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0797698E2765CC9100D440A6;
+			productRefGroup = 079769982765CC9200D440A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079769962765CC9200D440A6 /* Photorama"Hajer-mohamed" */,
+				079769AC2765CC9400D440A6 /* Photorama"Hajer-mohamed"Tests */,
+				079769B62765CC9400D440A6 /* Photorama"Hajer-mohamed"UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079769952765CC9200D440A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079769A72765CC9400D440A6 /* LaunchScreen.storyboard in Resources */,
+				079769A42765CC9400D440A6 /* Assets.xcassets in Resources */,
+				079769A22765CC9200D440A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079769AB2765CC9400D440A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079769B52765CC9400D440A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079769932765CC9200D440A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079769CD2765DD1800D440A6 /* PhotoStore.swift in Sources */,
+				079769CF2765E15800D440A6 /*  Photo.swift in Sources */,
+				079769CB2765D68900D440A6 /*  FlickrAPI.swift in Sources */,
+				0797699F2765CC9200D440A6 /* PhotosViewController.swift in Sources */,
+				0797699B2765CC9200D440A6 /* AppDelegate.swift in Sources */,
+				0797699D2765CC9200D440A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079769A92765CC9400D440A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079769B22765CC9400D440A6 /* Photorama_Hajer_mohamed_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079769B32765CC9400D440A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079769BC2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITests.swift in Sources */,
+				079769BE2765CC9400D440A6 /* Photorama_Hajer_mohamed_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		079769AF2765CC9400D440A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079769962765CC9200D440A6 /* Photorama"Hajer-mohamed" */;
+			targetProxy = 079769AE2765CC9400D440A6 /* PBXContainerItemProxy */;
+		};
+		079769B92765CC9400D440A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079769962765CC9200D440A6 /* Photorama"Hajer-mohamed" */;
+			targetProxy = 079769B82765CC9400D440A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		079769A02765CC9200D440A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079769A12765CC9200D440A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		079769A52765CC9400D440A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079769A62765CC9400D440A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079769BF2765CC9400D440A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		079769C02765CC9400D440A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		079769C22765CC9400D440A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photorama\"Hajer-mohamed\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajer.Photorama-Hajer-mohamed-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		079769C32765CC9400D440A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photorama\"Hajer-mohamed\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajer.Photorama-Hajer-mohamed-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		079769C52765CC9400D440A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajer.Photorama-Hajer-mohamed-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photorama\"Hajer-mohamed\".app/Photorama\"Hajer-mohamed\"";
+			};
+			name = Debug;
+		};
+		079769C62765CC9400D440A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajer.Photorama-Hajer-mohamed-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photorama\"Hajer-mohamed\".app/Photorama\"Hajer-mohamed\"";
+			};
+			name = Release;
+		};
+		079769C82765CC9400D440A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajer.Photorama-Hajer-mohamed-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photorama\"Hajer-mohamed\"";
+			};
+			name = Debug;
+		};
+		079769C92765CC9400D440A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajer.Photorama-Hajer-mohamed-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photorama\"Hajer-mohamed\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079769922765CC9100D440A6 /* Build configuration list for PBXProject "Photorama"Hajer-mohamed"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079769BF2765CC9400D440A6 /* Debug */,
+				079769C02765CC9400D440A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079769C12765CC9400D440A6 /* Build configuration list for PBXNativeTarget "Photorama"Hajer-mohamed"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079769C22765CC9400D440A6 /* Debug */,
+				079769C32765CC9400D440A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079769C42765CC9400D440A6 /* Build configuration list for PBXNativeTarget "Photorama"Hajer-mohamed"Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079769C52765CC9400D440A6 /* Debug */,
+				079769C62765CC9400D440A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079769C72765CC9400D440A6 /* Build configuration list for PBXNativeTarget "Photorama"Hajer-mohamed"UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079769C82765CC9400D440A6 /* Debug */,
+				079769C92765CC9400D440A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0797698F2765CC9100D440A6 /* Project object */;
+}
