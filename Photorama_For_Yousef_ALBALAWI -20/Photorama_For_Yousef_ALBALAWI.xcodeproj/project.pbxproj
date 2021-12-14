@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA60F8B727673559001BF107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8B627673559001BF107 /* AppDelegate.swift */; };
+		CA60F8B927673559001BF107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8B827673559001BF107 /* SceneDelegate.swift */; };
+		CA60F8BB27673559001BF107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8BA27673559001BF107 /* ViewController.swift */; };
+		CA60F8BE27673559001BF107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA60F8BC27673559001BF107 /* Main.storyboard */; };
+		CA60F8C027673559001BF107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA60F8BF27673559001BF107 /* Assets.xcassets */; };
+		CA60F8C327673559001BF107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA60F8C127673559001BF107 /* LaunchScreen.storyboard */; };
+		CA60F8CE27673559001BF107 /* Photorama_For_Yousef_ALBALAWITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8CD27673559001BF107 /* Photorama_For_Yousef_ALBALAWITests.swift */; };
+		CA60F8D927673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8D827673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests.swift */; };
+		CA60F8E92767369B001BF107 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8E82767369B001BF107 /* PhotosViewController.swift */; };
+		CA60F8EB276739F8001BF107 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8EA276739F8001BF107 /* FlickrAPI.swift */; };
+		CA60F8ED27674124001BF107 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8EC27674124001BF107 /* PhotoStore.swift */; };
+		CA60F8EF27675176001BF107 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F8EE27675176001BF107 /* Photo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA60F8CA27673559001BF107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA60F8AB27673558001BF107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA60F8B227673558001BF107;
+			remoteInfo = Photorama_For_Yousef_ALBALAWI;
+		};
+		CA60F8D527673559001BF107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA60F8AB27673558001BF107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA60F8B227673558001BF107;
+			remoteInfo = Photorama_For_Yousef_ALBALAWI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA60F8B327673559001BF107 /* Photorama_For_Yousef_ALBALAWI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photorama_For_Yousef_ALBALAWI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA60F8B627673559001BF107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA60F8B827673559001BF107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA60F8BA27673559001BF107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA60F8BD27673559001BF107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA60F8BF27673559001BF107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA60F8C227673559001BF107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA60F8C427673559001BF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA60F8C927673559001BF107 /* Photorama_For_Yousef_ALBALAWITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Photorama_For_Yousef_ALBALAWITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA60F8CD27673559001BF107 /* Photorama_For_Yousef_ALBALAWITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_For_Yousef_ALBALAWITests.swift; sourceTree = "<group>"; };
+		CA60F8CF27673559001BF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA60F8D427673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Photorama_For_Yousef_ALBALAWIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA60F8D827673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_For_Yousef_ALBALAWIUITests.swift; sourceTree = "<group>"; };
+		CA60F8DA27673559001BF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA60F8E82767369B001BF107 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		CA60F8EA276739F8001BF107 /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		CA60F8EC27674124001BF107 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		CA60F8EE27675176001BF107 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA60F8B027673558001BF107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60F8C627673559001BF107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60F8D127673559001BF107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA60F8AA27673558001BF107 = {
+			isa = PBXGroup;
+			children = (
+				CA60F8B527673559001BF107 /* Photorama_For_Yousef_ALBALAWI */,
+				CA60F8CC27673559001BF107 /* Photorama_For_Yousef_ALBALAWITests */,
+				CA60F8D727673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests */,
+				CA60F8B427673559001BF107 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA60F8B427673559001BF107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA60F8B327673559001BF107 /* Photorama_For_Yousef_ALBALAWI.app */,
+				CA60F8C927673559001BF107 /* Photorama_For_Yousef_ALBALAWITests.xctest */,
+				CA60F8D427673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA60F8B527673559001BF107 /* Photorama_For_Yousef_ALBALAWI */ = {
+			isa = PBXGroup;
+			children = (
+				CA60F8B627673559001BF107 /* AppDelegate.swift */,
+				CA60F8B827673559001BF107 /* SceneDelegate.swift */,
+				CA60F8BA27673559001BF107 /* ViewController.swift */,
+				CA60F8BC27673559001BF107 /* Main.storyboard */,
+				CA60F8BF27673559001BF107 /* Assets.xcassets */,
+				CA60F8C127673559001BF107 /* LaunchScreen.storyboard */,
+				CA60F8C427673559001BF107 /* Info.plist */,
+				CA60F8E82767369B001BF107 /* PhotosViewController.swift */,
+				CA60F8EA276739F8001BF107 /* FlickrAPI.swift */,
+				CA60F8EC27674124001BF107 /* PhotoStore.swift */,
+				CA60F8EE27675176001BF107 /* Photo.swift */,
+			);
+			path = Photorama_For_Yousef_ALBALAWI;
+			sourceTree = "<group>";
+		};
+		CA60F8CC27673559001BF107 /* Photorama_For_Yousef_ALBALAWITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA60F8CD27673559001BF107 /* Photorama_For_Yousef_ALBALAWITests.swift */,
+				CA60F8CF27673559001BF107 /* Info.plist */,
+			);
+			path = Photorama_For_Yousef_ALBALAWITests;
+			sourceTree = "<group>";
+		};
+		CA60F8D727673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA60F8D827673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests.swift */,
+				CA60F8DA27673559001BF107 /* Info.plist */,
+			);
+			path = Photorama_For_Yousef_ALBALAWIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA60F8B227673558001BF107 /* Photorama_For_Yousef_ALBALAWI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA60F8DD27673559001BF107 /* Build configuration list for PBXNativeTarget "Photorama_For_Yousef_ALBALAWI" */;
+			buildPhases = (
+				CA60F8AF27673558001BF107 /* Sources */,
+				CA60F8B027673558001BF107 /* Frameworks */,
+				CA60F8B127673558001BF107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photorama_For_Yousef_ALBALAWI;
+			productName = Photorama_For_Yousef_ALBALAWI;
+			productReference = CA60F8B327673559001BF107 /* Photorama_For_Yousef_ALBALAWI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA60F8C827673559001BF107 /* Photorama_For_Yousef_ALBALAWITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA60F8E027673559001BF107 /* Build configuration list for PBXNativeTarget "Photorama_For_Yousef_ALBALAWITests" */;
+			buildPhases = (
+				CA60F8C527673559001BF107 /* Sources */,
+				CA60F8C627673559001BF107 /* Frameworks */,
+				CA60F8C727673559001BF107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA60F8CB27673559001BF107 /* PBXTargetDependency */,
+			);
+			name = Photorama_For_Yousef_ALBALAWITests;
+			productName = Photorama_For_Yousef_ALBALAWITests;
+			productReference = CA60F8C927673559001BF107 /* Photorama_For_Yousef_ALBALAWITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA60F8D327673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA60F8E327673559001BF107 /* Build configuration list for PBXNativeTarget "Photorama_For_Yousef_ALBALAWIUITests" */;
+			buildPhases = (
+				CA60F8D027673559001BF107 /* Sources */,
+				CA60F8D127673559001BF107 /* Frameworks */,
+				CA60F8D227673559001BF107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA60F8D627673559001BF107 /* PBXTargetDependency */,
+			);
+			name = Photorama_For_Yousef_ALBALAWIUITests;
+			productName = Photorama_For_Yousef_ALBALAWIUITests;
+			productReference = CA60F8D427673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA60F8AB27673558001BF107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CA60F8B227673558001BF107 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CA60F8C827673559001BF107 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CA60F8B227673558001BF107;
+					};
+					CA60F8D327673559001BF107 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CA60F8B227673558001BF107;
+					};
+				};
+			};
+			buildConfigurationList = CA60F8AE27673558001BF107 /* Build configuration list for PBXProject "Photorama_For_Yousef_ALBALAWI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA60F8AA27673558001BF107;
+			productRefGroup = CA60F8B427673559001BF107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA60F8B227673558001BF107 /* Photorama_For_Yousef_ALBALAWI */,
+				CA60F8C827673559001BF107 /* Photorama_For_Yousef_ALBALAWITests */,
+				CA60F8D327673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA60F8B127673558001BF107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA60F8C327673559001BF107 /* LaunchScreen.storyboard in Resources */,
+				CA60F8C027673559001BF107 /* Assets.xcassets in Resources */,
+				CA60F8BE27673559001BF107 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60F8C727673559001BF107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60F8D227673559001BF107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA60F8AF27673558001BF107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA60F8EF27675176001BF107 /* Photo.swift in Sources */,
+				CA60F8BB27673559001BF107 /* ViewController.swift in Sources */,
+				CA60F8E92767369B001BF107 /* PhotosViewController.swift in Sources */,
+				CA60F8B727673559001BF107 /* AppDelegate.swift in Sources */,
+				CA60F8B927673559001BF107 /* SceneDelegate.swift in Sources */,
+				CA60F8ED27674124001BF107 /* PhotoStore.swift in Sources */,
+				CA60F8EB276739F8001BF107 /* FlickrAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60F8C527673559001BF107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA60F8CE27673559001BF107 /* Photorama_For_Yousef_ALBALAWITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60F8D027673559001BF107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA60F8D927673559001BF107 /* Photorama_For_Yousef_ALBALAWIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA60F8CB27673559001BF107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA60F8B227673558001BF107 /* Photorama_For_Yousef_ALBALAWI */;
+			targetProxy = CA60F8CA27673559001BF107 /* PBXContainerItemProxy */;
+		};
+		CA60F8D627673559001BF107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA60F8B227673558001BF107 /* Photorama_For_Yousef_ALBALAWI */;
+			targetProxy = CA60F8D527673559001BF107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA60F8BC27673559001BF107 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA60F8BD27673559001BF107 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA60F8C127673559001BF107 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA60F8C227673559001BF107 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA60F8DB27673559001BF107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA60F8DC27673559001BF107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA60F8DE27673559001BF107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WY898MHLG;
+				INFOPLIST_FILE = Photorama_For_Yousef_ALBALAWI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yousef.Photorama-For-Yousef-ALBALAWI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA60F8DF27673559001BF107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WY898MHLG;
+				INFOPLIST_FILE = Photorama_For_Yousef_ALBALAWI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yousef.Photorama-For-Yousef-ALBALAWI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA60F8E127673559001BF107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WY898MHLG;
+				INFOPLIST_FILE = Photorama_For_Yousef_ALBALAWITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yousef.Photorama-For-Yousef-ALBALAWITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photorama_For_Yousef_ALBALAWI.app/Photorama_For_Yousef_ALBALAWI";
+			};
+			name = Debug;
+		};
+		CA60F8E227673559001BF107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WY898MHLG;
+				INFOPLIST_FILE = Photorama_For_Yousef_ALBALAWITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yousef.Photorama-For-Yousef-ALBALAWITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photorama_For_Yousef_ALBALAWI.app/Photorama_For_Yousef_ALBALAWI";
+			};
+			name = Release;
+		};
+		CA60F8E427673559001BF107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WY898MHLG;
+				INFOPLIST_FILE = Photorama_For_Yousef_ALBALAWIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yousef.Photorama-For-Yousef-ALBALAWIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Photorama_For_Yousef_ALBALAWI;
+			};
+			name = Debug;
+		};
+		CA60F8E527673559001BF107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WY898MHLG;
+				INFOPLIST_FILE = Photorama_For_Yousef_ALBALAWIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yousef.Photorama-For-Yousef-ALBALAWIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Photorama_For_Yousef_ALBALAWI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA60F8AE27673558001BF107 /* Build configuration list for PBXProject "Photorama_For_Yousef_ALBALAWI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA60F8DB27673559001BF107 /* Debug */,
+				CA60F8DC27673559001BF107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA60F8DD27673559001BF107 /* Build configuration list for PBXNativeTarget "Photorama_For_Yousef_ALBALAWI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA60F8DE27673559001BF107 /* Debug */,
+				CA60F8DF27673559001BF107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA60F8E027673559001BF107 /* Build configuration list for PBXNativeTarget "Photorama_For_Yousef_ALBALAWITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA60F8E127673559001BF107 /* Debug */,
+				CA60F8E227673559001BF107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA60F8E327673559001BF107 /* Build configuration list for PBXNativeTarget "Photorama_For_Yousef_ALBALAWIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA60F8E427673559001BF107 /* Debug */,
+				CA60F8E527673559001BF107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA60F8AB27673558001BF107 /* Project object */;
+}
