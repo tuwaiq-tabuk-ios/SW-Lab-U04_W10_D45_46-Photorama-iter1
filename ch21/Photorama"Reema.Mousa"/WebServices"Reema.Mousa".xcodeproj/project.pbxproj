@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE2ED91B27692DD5009A933A /* PhotoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2ED91A27692DD5009A933A /* PhotoInfoViewController.swift */; };
+		AE2ED91D27692EB3009A933A /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2ED91C27692EB3009A933A /* ImageStore.swift */; };
+		AE67BF9B2765E0B500EF83EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67BF9A2765E0B500EF83EF /* AppDelegate.swift */; };
+		AE67BF9D2765E0B500EF83EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67BF9C2765E0B500EF83EF /* SceneDelegate.swift */; };
+		AE67BF9F2765E0B500EF83EF /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67BF9E2765E0B500EF83EF /* PhotosViewController.swift */; };
+		AE67BFA22765E0B500EF83EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE67BFA02765E0B500EF83EF /* Main.storyboard */; };
+		AE67BFA42765E0B600EF83EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE67BFA32765E0B600EF83EF /* Assets.xcassets */; };
+		AE67BFA72765E0B600EF83EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE67BFA52765E0B600EF83EF /* LaunchScreen.storyboard */; };
+		AEEDE9E52765E2EF000E4AF6 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEDE9E42765E2EF000E4AF6 /* FlickrAPI.swift */; };
+		AEEDE9E72765E53F000E4AF6 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEDE9E62765E53F000E4AF6 /* PhotoStore.swift */; };
+		AEEDE9E92765E734000E4AF6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEDE9E82765E734000E4AF6 /* Photo.swift */; };
+		AEFFD7C62767380E003D5CBF /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFD7C52767380E003D5CBF /* PhotoDataSource.swift */; };
+		AEFFD7CA2767427A003D5CBF /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFD7C92767427A003D5CBF /* PhotoCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE2ED91A27692DD5009A933A /* PhotoInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoViewController.swift; sourceTree = "<group>"; };
+		AE2ED91C27692EB3009A933A /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		AE67BF972765E0B500EF83EF /* WebServices"Reema.Mousa".app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebServices\"Reema.Mousa\".app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE67BF9A2765E0B500EF83EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE67BF9C2765E0B500EF83EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE67BF9E2765E0B500EF83EF /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		AE67BFA12765E0B500EF83EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE67BFA32765E0B600EF83EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE67BFA62765E0B600EF83EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE67BFA82765E0B600EF83EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEDE9E42765E2EF000E4AF6 /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		AEEDE9E62765E53F000E4AF6 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		AEEDE9E82765E734000E4AF6 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		AEFFD7C52767380E003D5CBF /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		AEFFD7C92767427A003D5CBF /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE67BF942765E0B500EF83EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE2ED91E27692FBA009A933A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEEDE9E42765E2EF000E4AF6 /* FlickrAPI.swift */,
+				AEEDE9E62765E53F000E4AF6 /* PhotoStore.swift */,
+				AEEDE9E82765E734000E4AF6 /* Photo.swift */,
+				AEFFD7C52767380E003D5CBF /* PhotoDataSource.swift */,
+				AE2ED91C27692EB3009A933A /* ImageStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE2ED91F27692FD3009A933A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AE67BF9C2765E0B500EF83EF /* SceneDelegate.swift */,
+				AE67BF9A2765E0B500EF83EF /* AppDelegate.swift */,
+				AE67BFA32765E0B600EF83EF /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		AE2ED92027692FE7009A933A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE67BFA52765E0B600EF83EF /* LaunchScreen.storyboard */,
+				AE67BFA02765E0B500EF83EF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE67BF8E2765E0B500EF83EF = {
+			isa = PBXGroup;
+			children = (
+				AE67BF992765E0B500EF83EF /* WebServices"Reema.Mousa" */,
+				AE67BF982765E0B500EF83EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE67BF982765E0B500EF83EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE67BF972765E0B500EF83EF /* WebServices"Reema.Mousa".app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE67BF992765E0B500EF83EF /* WebServices"Reema.Mousa" */ = {
+			isa = PBXGroup;
+			children = (
+				AEEDE9E32765E2CE000E4AF6 /* Controller */,
+				AE2ED91E27692FBA009A933A /* Model */,
+				AE2ED92027692FE7009A933A /* View */,
+				AE2ED91F27692FD3009A933A /* Support */,
+				AE67BFA82765E0B600EF83EF /* Info.plist */,
+			);
+			path = "WebServices\"Reema.Mousa\"";
+			sourceTree = "<group>";
+		};
+		AEEDE9E32765E2CE000E4AF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE67BF9E2765E0B500EF83EF /* PhotosViewController.swift */,
+				AE2ED91A27692DD5009A933A /* PhotoInfoViewController.swift */,
+				AEFFD7C92767427A003D5CBF /* PhotoCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE67BF962765E0B500EF83EF /* WebServices"Reema.Mousa" */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE67BFAB2765E0B600EF83EF /* Build configuration list for PBXNativeTarget "WebServices"Reema.Mousa"" */;
+			buildPhases = (
+				AE67BF932765E0B500EF83EF /* Sources */,
+				AE67BF942765E0B500EF83EF /* Frameworks */,
+				AE67BF952765E0B500EF83EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebServices\"Reema.Mousa\"";
+			productName = "WebServices\"Reema.Mousa\"";
+			productReference = AE67BF972765E0B500EF83EF /* WebServices"Reema.Mousa".app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE67BF8F2765E0B500EF83EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AE67BF962765E0B500EF83EF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = AE67BF922765E0B500EF83EF /* Build configuration list for PBXProject "WebServices"Reema.Mousa"" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE67BF8E2765E0B500EF83EF;
+			productRefGroup = AE67BF982765E0B500EF83EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE67BF962765E0B500EF83EF /* WebServices"Reema.Mousa" */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE67BF952765E0B500EF83EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE67BFA72765E0B600EF83EF /* LaunchScreen.storyboard in Resources */,
+				AE67BFA42765E0B600EF83EF /* Assets.xcassets in Resources */,
+				AE67BFA22765E0B500EF83EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE67BF932765E0B500EF83EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEDE9E92765E734000E4AF6 /* Photo.swift in Sources */,
+				AEFFD7CA2767427A003D5CBF /* PhotoCollectionViewCell.swift in Sources */,
+				AEFFD7C62767380E003D5CBF /* PhotoDataSource.swift in Sources */,
+				AE2ED91D27692EB3009A933A /* ImageStore.swift in Sources */,
+				AEEDE9E72765E53F000E4AF6 /* PhotoStore.swift in Sources */,
+				AE67BF9F2765E0B500EF83EF /* PhotosViewController.swift in Sources */,
+				AE67BF9B2765E0B500EF83EF /* AppDelegate.swift in Sources */,
+				AE67BF9D2765E0B500EF83EF /* SceneDelegate.swift in Sources */,
+				AEEDE9E52765E2EF000E4AF6 /* FlickrAPI.swift in Sources */,
+				AE2ED91B27692DD5009A933A /* PhotoInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE67BFA02765E0B500EF83EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE67BFA12765E0B500EF83EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE67BFA52765E0B600EF83EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE67BFA62765E0B600EF83EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE67BFA92765E0B600EF83EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE67BFAA2765E0B600EF83EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE67BFAC2765E0B600EF83EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQQ2YBW9F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WebServices\"Reema.Mousa\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reema.com.WebServices-Reema-Mousa-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE67BFAD2765E0B600EF83EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQQ2YBW9F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WebServices\"Reema.Mousa\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reema.com.WebServices-Reema-Mousa-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE67BF922765E0B500EF83EF /* Build configuration list for PBXProject "WebServices"Reema.Mousa"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE67BFA92765E0B600EF83EF /* Debug */,
+				AE67BFAA2765E0B600EF83EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE67BFAB2765E0B600EF83EF /* Build configuration list for PBXNativeTarget "WebServices"Reema.Mousa"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE67BFAC2765E0B600EF83EF /* Debug */,
+				AE67BFAD2765E0B600EF83EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE67BF8F2765E0B500EF83EF /* Project object */;
+}
